@@ -1,0 +1,37 @@
+body{
+    font-family:  Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: orangered;
+    color: white;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+table{
+    max-width: 1500px;
+    border-spacing: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    font-size: 30px;
+}
+tr{
+    font-size: 30px;
+    type
+}
+button{
+    background-color: darkcyan;
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 110px;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: whitesmoke
+
+}
+div{
+    text-align: center;
+}

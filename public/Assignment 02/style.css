@@ -1,0 +1,56 @@
+.header {
+    font-family:  calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #6B59CD;
+    text-decoration: underline;
+}
+.submission-message {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+table{
+    background-color: #6B59CD ;
+    color: whitesmoke;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:  Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
+}
+#form{
+    border: 1px solid black;
+}
+input, select, textarea,button{
+    border-spacing: 3px;
+    font-size: 18px;
+    text-indent: 8px;
+    border: 1px solid grey;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+td#buttons {
+    text-align: center;
+}
+.button{
+  border-radius: 5px;
+}
+
+#thankyou {
+    font-size: 40px;
+    color: #098F03;
+    
+}
+
+#form-submitted {
+    font-size: 30px;
+    color: #9200C0;
+
+}
+
+#goback {
+    font-size: 40px;
+    text-decoration: underline;
+    color: #690087;
+}

@@ -1,0 +1,14 @@
+/* body{
+    background-color: black;
+} */
+table{
+    margin-left: auto;
+    margin-right: auto;;
+}
+td, th {
+    border: 1.4px solid black
+}
+
+.blankcell {
+    border: 0px;
+}
