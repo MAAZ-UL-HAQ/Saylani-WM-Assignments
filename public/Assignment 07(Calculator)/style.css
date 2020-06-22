@@ -1,5 +1,5 @@
 #calc{
-    width: 500px;
+    width: 510px;
     border-radius: 20px;
     margin: 50px auto;
     padding: 10px;
@@ -12,7 +12,7 @@
     font-size: 3rem;
     border: 2px solid #37474F;
     border-radius: 10px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 14px;
     padding: 4px 4px 4px 12px;
     box-shadow: -3px -3px 4px grey;
 }
