@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(19, 18, 18);
+}
+#header{
+    background-color: rgb(19, 18, 18);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid rgb(6, 109, 156);
+    height: 25px;
+}
+h1{
+    display: inline-block;
+    font-size: 3.4rem;
+    color: rgb(6, 109, 156);
+    margin: 88px 5px 5px 5px
+}
+#min{
+    margin-left: 70px !important;
+}
+#min,#sec{
+    font-size: 3.5rem;
+    color: rgb(6, 109, 156);
+    margin: 110px 5px 5px 5px;
+}
+#msec{
+    font-size: 2.3rem;
+    color: rgb(6, 109, 156);
+    margin: 130px 5px 5px 5px;
+}
+#watch{
+    border: 3px solid white;
+    background-color: rgb(19, 18, 18);
+    border-radius: 200px;
+    width: 300px;
+    height: 300px;
+    margin: 120px auto 50px auto;
+    padding-top: 2px;
+}
+button{
+    font-size: 1.19rem;
+    letter-spacing: 0.9px;
+    border: 3px solid  rgb(6, 109, 156);
+    background-color: rgb(19, 18, 18);
+    color: white;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: 10px 5px;
+    padding-top: 3px;
+    box-shadow: 2px 2px 2px rgb(6, 109, 156);
+}
+button:active{
+    border: 3px solid  rgb(7, 119, 172);
+    background-color: rgb(29, 28, 28);
+    color: white;
+    box-shadow: 2px 2px 2px rgb(8, 133, 190);
+}
+button:disabled{
+    color: gray;
+    border: 3px solid gray;
+    box-shadow: 2px 2px 2px gray;
+}
+#button{
+    text-align: center;
+}
