@@ -5,6 +5,8 @@ var htmlMsec = document.getElementById("msec");
 var startBtn = document.getElementById("startbtn");
 var pauseBtn = document.getElementById("pausebtn");
 var resetBtn = document.getElementById("resetbtn");
+var lh = document.getElementById("lapHistory");
+var lapCounter = 0;
 var interval;
 
 function stopWatch(){
@@ -41,4 +43,10 @@ function reset(){
     htmlMsec.innerHTML = msec;
     resetBtn.disabled = true;
     pause()
+    lh.innerHTML = ""
+    lapCounter=0
+}
+function lap(){
+    lapCounter += 1;
+    lh.innerHTML += "<br>"+ lapCounter + ".      " + min + ":" + sec + ":" +msec;
 }
