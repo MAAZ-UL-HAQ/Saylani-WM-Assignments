@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="sticky-top">
+        <!-- heading -->
+        <div id="header">
+            <h1>To Do</h1>
+        </div>
+
+        <!-- list input -->
+        <input id="taskInput" type="search" placeholder="Add a task">
+        <button onclick="insertList()" type="button" class="btn btn-outline-dark">List task</button>
+        <button onclick="clearList()" type="button" class="btn btn-outline-dark">Refresh list</button>
+    
+    </div>
+
+    <!-- list -->
+    <ul id="list">
+    </ul>
+
+
+</body>
+<script src="./app.js"></script>
+
+</html>
